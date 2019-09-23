@@ -85,7 +85,7 @@ class: center middle main-title
 
 ## Craft CMS & Atomic Design
 
-- [atomic design visual](http://atomicdesign.bradfrost.com/images/content/atomic-design-process.png)
+- [atomic design visual](http://atomicdesign.bradfrost.com/images/content/atomic-design-process.png) & [introduction](http://atomicdesign.bradfrost.com/chapter-2/)
 - <del>annotated admin UI</del>
 | [live admin UI](https://wes-craft-cms.herokuapp.com/admin/entries)
 - <del>annotated webpage</del> | [live website](https://www.vyprvpn.com)
@@ -94,9 +94,9 @@ class: center middle main-title
 
 The concept of atomic design was applied to the CMS, but the vocabulary of atomic design was not used.
 
-So, I have created an [annotated screenshot](./images/craft-cms-and-atomic-design.png) that layers the two for a visual of the final result.
+So, I have created—oh, wait, not yet—an [annotated screenshot](./images/craft-cms-and-atomic-design.png) that layers the two for a visual of the final result.
 
-Also, we can log in to a [live admin interface](https://wes-craft-cms.herokuapp.com/admin/entries) to play around.
+Also, we can log in to a [live admin interface](https://wes-craft-cms.herokuapp.com/admin/entries) to play around, and see [a live website that represents the inteded final product](https://www.vyprvpn.com).
 
 
 ---

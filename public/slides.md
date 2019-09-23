@@ -234,7 +234,8 @@ A design system can include a content style guide, branding style guide, and pat
 
 #### Pattern Library
 
-[sample pattern library](http://127.0.0.1:8080/developer/docs/styles/index.html)
+<del>sample pattern library</del>
+> (not public yet; [private host link](http://127.0.0.1:8080/developer/docs/styles/index.html))
 - added structured comments (and sample HTML) to stylesheets
 - used seprate template files for complex sample HTML
 - organized patterns by defining hierarchy via comment
@@ -242,6 +243,7 @@ A design system can include a content style guide, branding style guide, and pat
 #### Design System
 
 <del>sample design system</del>
+> (incomplete)
 - served dedicated CMS pages into a microsite
 - bundled in the auto-generated pattern library
 - used for internal or external reference

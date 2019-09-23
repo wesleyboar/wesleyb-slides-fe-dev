@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>What Can Wesley Do?</title>
+    <link href="./styles.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Yanone+Kaffeesatz:200,300,400,700|Ubuntu+Mono:400,700,400italic" rel="stylesheet" />
+    <style>
+      .custom-slide-final {
+        background-image: url(./assets/fin.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+      .text-icon {
+        font-size: larger;
+        font-weight: bold;
+        color: hsla(220, 86%, 70%, 1);
+      }
+    </style>
+  </head>
+  <body>
+    <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js"></script>
+    <script>
+      var slideshow = remark.create({
+        sourceUrl: './slides.md'
+      });
+    </script>
+    <script>
+      var audio = new Audio('./assets/fin.mp3');
+
+      slideshow.on('showSlide', function (slide) {
+        var lastSlideIndex = slideshow.getSlideCount();
+        var currSlideIndex = slide.getSlideIndex() + 1;
+
+        if ( currSlideIndex === lastSlideIndex ) {
+          audio.play();
+        } else {
+          audio.pause();
+          audio.currentTime = 0;
+        }
+      });
+    </script>
+  </body>
+</html>

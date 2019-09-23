@@ -1,0 +1,29 @@
+{
+  "name": "wesleyb-web-slides-fe-dev",
+  "version": "1.0.0",
+  "description": "A web-based slideshow that markets my front-end development experience",
+  "engines": {
+    "node": "10.x",
+    "npm": "6.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/wesleyb/wesleyb-fe-dev-presentation.git"
+  },
+  "author": "Wesley B <me@wesleyb.io>",
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/wesleyboar/wesleyb-fe-dev-presentation/blob/master/README.md",
+  "scripts": {
+    "start": "npm run build && npm run serve",
+    "serve": "npx http-server dist",
+    "prebuild": "shx rm -rf dist",
+    "build": "shx cp -r public dist"
+  },
+  "devDependencies": {
+    "shx": "^0.3.2",
+    "wes-cli": "git+ssh://git@bitbucket.org/wesleyb/wesleyb-web-cli.git"
+  },
+  "optionalDependencies": {
+    "remark-slide": "^0.14.0"
+  }
+}

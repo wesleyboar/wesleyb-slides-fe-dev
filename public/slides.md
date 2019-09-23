@@ -2,7 +2,9 @@
 class: center middle main-title
 
 # What Can Wesley Do?
-Press "P" to enter presentation mode, and see annotations.
+Use arrow keys to navigate slides.
+
+<small>Press "P" to enter presentation mode, and see annotations.</small>
 
 ???
 > Press "C" to open cloned view, press "P" to exit presentation mode.

@@ -2,10 +2,6 @@
 
 A presentation (using `gnab/remark`) marketing Wesley B's experience as a Front-End Developer.
 
-## Requirements
-
-- web browser
-
 ## Quick Start
 
 ### To View
@@ -40,8 +36,9 @@ These directories are manually maintained.
 #### `npm build`
 
 "Build" the website.
-    - This simple website has no build steps.
-    - This prcoess only clones `public/` to `dist/`.
+
+- This simple website has no build steps.
+- This prcoess only clones `public/` to `dist/`.
 
 #### `npm serve`
 

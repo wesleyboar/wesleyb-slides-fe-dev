@@ -279,7 +279,7 @@ I've created 18 websites; maintained, expanded, and managed 6 websites; used and
 
 ### Websites
 
-- [Portfolio Website & Resume](http://wesleyb.io)
+- [Portfolio Website & Resume](http://wesleyb.me)
 - [Marketing & Product Sign Up — _Network Optimization_](https://getoutfox.com)
 - [Marketing — _Privacy & Security Software_](https://goldenfrog.com/)
 - [Marketing & Product Sign Up — _VPN Service_](https://www.vyprvpn.com/our-commitment)

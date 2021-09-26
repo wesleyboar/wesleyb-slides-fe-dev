@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+ssh://git@bitbucket.org/wesleyb/wesleyb-fe-dev-presentation.git"
   },
-  "author": "Wesley B <me@wesleyb.io>",
+  "author": "Wesley B <whois@wesleyb.me>",
   "license": "UNLICENSED",
   "homepage": "https://github.com/wesleyboar/wesleyb-fe-dev-presentation/blob/master/README.md",
   "scripts": {

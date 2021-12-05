@@ -38,7 +38,7 @@ These directories are manually maintained.
 "Build" the website.
 
 - This simple website has no build steps.
-- This prcoess only clones `public/` to `dist/`.
+- This process only clones `public/` to `dist/`.
 
 #### `npm serve`
 
